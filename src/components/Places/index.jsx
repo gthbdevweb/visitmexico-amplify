@@ -22,7 +22,7 @@ const Places = () => {
         <Link to={item.dir} className="places-card-link">
           <LazyLoadImage 
             className="places-card-img"
-            src={require(`../../assets/img/places/${item.urlImg}`)} 
+            src={require(`/static/media/${item.urlImg}`)} 
             alt={item.name}
           />
           <p className="places-card-text">{item.description}</p>
